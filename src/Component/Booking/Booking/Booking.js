@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const Booking = () => {
-  const { id } = useParams();
+  const { id } = useParams();//use param
   const [user, setuser] = useState([]);
   const [data, setData] = useState({});
   useEffect(() => {
@@ -12,7 +12,7 @@ const Booking = () => {
   }, [id]);
 
   useEffect(() => {
-    const item = user?.find((detail) => detail?.id === id);
+    const item = user?.find((detail) => detail?.id === id);//find data
     setData(item);
   }, [user]);
   console.log(user);

@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="row col-12 m-auto w-100">
             <div className="col-md-3">
               <div className="footone">
-                <h2>Medico.</h2>
+                <h3>Medico.</h3>
                 <p>
                 Dental bonding is a technique used to correct imperfections with your teeth to give you a better-looking smile.
                 </p>
@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-md-3">
-              <h3 className="mb-4">Useful Link</h3>
+              <h4 className="mb-4">Useful Link</h4>
               <ul class="list-unstyled">
                 <li>Home</li>
                 <li> Products</li>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             <div className="col-md-3">
               <div className="foottwo">
-                <h3>News & Blog </h3>
+                <h4>News & Blog </h4>
                 <div className="footdoc2 my-3">
                   <div className="row col-12 m-auto w-100">
                     <div className="col-md-4">
@@ -103,7 +103,7 @@ const Footer = () => {
             </div>
             <div className="col-md-3">
               <div className="footThree">
-                <h3>Contact Information</h3>
+                <h4>Contact Information</h4>
                 <div className="footdoc3 my-3">
                   <div className="row">
                     <div className="col-md-5">
