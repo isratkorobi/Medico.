@@ -1,0 +1,70 @@
+Banner-css
+
+*{
+    text-decoration: none !important;
+}
+.banner{
+    background-image: url(https://i.ibb.co/nQMtkGx/slides-bg1-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height:650px;
+}
+.banner-text{
+    padding-top: 80px;
+}
+.banner-text h1{
+    color:#000;
+    font-size:63px;
+    font-weight:700;
+    font-family: 'Poppins', sans-serif;
+    padding-top:30px;
+    text-decoration: none !important;
+}
+.banner-text p{
+    color:#000;
+    margin-bottom:30px;
+}
+.button{
+    display:flex;
+    align-items:center;
+}
+.slide-span{
+    color:#06A3DA;
+}
+.primary-btn{
+    background:#06A3DA;
+    color:#fff;
+    display: inline-block;
+    padding: 18px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+.primary-btn:hover{
+    background:#222222;
+    color:#fff;
+}
+.secondary-btn:hover{
+    background:#06A3DA;
+    color:#fff;
+}
+.secondary-btn{
+    background:#222222;
+    margin-left:10px;
+    color:#fff;
+    display: inline-block;
+    padding: 18px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+@media only screen and (max-width:688px){
+    .banner-image{
+        height:100%;
+        width:100%;
+        position:relative;
+        z-index:1;
+    }
+}

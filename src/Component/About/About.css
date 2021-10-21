@@ -1,0 +1,51 @@
+.about-content h3 {
+    font-size: 36px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-weight:700;
+}
+.about-content h3 span {
+    color: #06a3da;
+    font-size: 36px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.about-count{
+
+    background:#06a3da;
+    padding:80px 0;
+    text-align: center;
+    color:#fff;
+}
+
+.count{
+    font-size:70px;
+   
+}
+
+.about-icon{
+    align-items: center;
+}
+
+
+.about-icon{
+    align-items: center;
+    
+}
+
+
+.about-icon i{
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #06a3da;
+    color: #fff;
+}
+.bb{
+    border-bottom: 3px solid #06a3da;
+}

@@ -1,0 +1,33 @@
+.service-container{
+    /* width: 85%; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* 
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.service h3{
+    font-size: 25px;
+    color:darkgray;
+    font-weight: bold;
+}
+.service h1{
+    color: #6c5ebf;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.service p{
+    margin-bottom:5%;
+    font-size: 16px;
+    color: #696969;
+    font-weight:400;
+} */
